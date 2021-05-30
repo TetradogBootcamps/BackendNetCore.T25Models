@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackendNetCore.T25Models", "BackendNetCore.T25Models\BackendNetCore.T25Models.csproj", "{90850B92-D139-4785-A342-4B6EB69D772D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90850B92-D139-4785-A342-4B6EB69D772D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90850B92-D139-4785-A342-4B6EB69D772D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90850B92-D139-4785-A342-4B6EB69D772D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90850B92-D139-4785-A342-4B6EB69D772D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {632B37C2-B1C3-4925-9754-2FC0D54A9D8B}
+	EndGlobalSection
+EndGlobal
