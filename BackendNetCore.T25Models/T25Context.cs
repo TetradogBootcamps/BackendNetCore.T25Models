@@ -24,5 +24,6 @@ namespace BackendNetCore.T25Models
         public DbSet<Caja> Cajas { get; set; }
         public DbSet<Pelicula> Peliculas { get; set; }
         public DbSet<Sala> Salas { get; set; }
+
     }
 }

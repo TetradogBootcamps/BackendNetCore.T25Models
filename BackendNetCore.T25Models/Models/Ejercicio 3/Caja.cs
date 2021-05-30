@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace BackendNetCore.T25Models.Models.Ejercicio_3
@@ -13,6 +15,9 @@ namespace BackendNetCore.T25Models.Models.Ejercicio_3
         [MaxLength(100)]
         public string Contenido { get; set; }
         public int Valor { get; set; }
+
         public int AlmacenId { get; set; }
+        [JsonIgnore]
+        public Almacen Almacen { get; set; }
     }
 }
